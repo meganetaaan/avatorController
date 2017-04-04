@@ -1,0 +1,15 @@
+{
+  "name": "live2d-controller",
+  "version": "0.0.1",
+  "description": "live2d wrapper based on hifive",
+  "main": "index.js",
+  "author": "Shinya Ishikawa",
+  "scripts": {
+    "start": "npm run watch",
+    "watch": "browser-sync start -c bs-config.js"
+  },
+  "private": "true",
+  "devDependencies": {
+    "browser-sync": "^2.18.8"
+  }
+}
